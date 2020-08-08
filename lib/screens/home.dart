@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget{
             ),
             SizedBox(height: ScreenUtil().setHeight(50),),
             HomeCategoryList(),
-            SizedBox(height: ScreenUtil().setHeight(50),),
+            SizedBox(height: ScreenUtil().setHeight(100),),
           ],
         ),
       ),

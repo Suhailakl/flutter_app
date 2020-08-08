@@ -15,7 +15,7 @@ class Search extends StatelessWidget{
       body: SingleChildScrollView(
         child: Column(
         children: <Widget>[
-          SizedBox(height: ScreenUtil().setHeight(200),),
+          SizedBox(height: ScreenUtil().setHeight(170),),
           Center(
             child: Text(
               S.searchHeadP1,
@@ -30,8 +30,8 @@ class Search extends StatelessWidget{
               style: CustomTextStyles().searchHeadTextStyle,
             ),
           ),
-          SizedBox(height: ScreenUtil().setHeight(50),),
-          SearchCategoryList()
+          SearchCategoryList(),
+          SizedBox(height: ScreenUtil().setHeight(100),),
 
         ],
         ),

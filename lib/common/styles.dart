@@ -52,7 +52,7 @@ class CustomTextStyles{
   TextStyle searchTitleStyle=TextStyle(
       color:CustomColors.whiteColor,
       fontFamily: S.ambitFont,
-      fontSize: ScreenUtil().setSp( 45,allowFontScalingSelf: false),
+      fontSize: ScreenUtil().setSp( 42,allowFontScalingSelf: false),
       fontWeight: FontWeight.w600
   );
   TextStyle homeSubHeadTextStyle=TextStyle(

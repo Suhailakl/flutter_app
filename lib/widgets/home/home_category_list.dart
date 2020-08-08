@@ -50,6 +50,8 @@ class _HomeCategoryListState extends State<HomeCategoryList> {
   void initData(){
     liCat.add(CategoryServices(title: "WALK GROUPS",id: 1));
     liCat.add(CategoryServices(title: "NEW PRODUCTS",id: 2));
+    liCat.add(CategoryServices(title: "SPECIAL PRODUCTS",id: 3));
+    liCat.add(CategoryServices(title: "TRENDING PRODUCTS",id: 4));
     liServices=[
       PetServices(
         id: 1,
@@ -104,6 +106,62 @@ class _HomeCategoryListState extends State<HomeCategoryList> {
           location: "Valencia, Spain",
           members: 8,
           organiser: "Laura"
-      )];
+      ),
+      PetServices(
+          id: 1,
+          catId: 3,
+          image: "assets/images/home_dog_images/dog1.jpeg",
+          title: "Meet our lovely dogs",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      PetServices(
+          id: 1,
+          catId: 3,
+          image: "assets/images/home_dog_images/dog2.jpg",
+          title: "Meet our lovely dogs",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      PetServices(
+          id: 1,
+          catId: 3,
+          image: "assets/images/home_dog_images/dog5.jpg",
+          title: "Meet our lovely dogs",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      PetServices(
+          id: 1,
+          catId:4,
+          title: "Meet our lovely dogs",
+          image: "assets/images/home_dog_images/dog3.jpg",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      PetServices(
+          id: 1,
+          catId:4,
+          image: "assets/images/home_dog_images/dog4.jpg",
+          title: "Meet our lovely dogs",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      PetServices(
+          id: 1,
+          catId:4,
+          image: "assets/images/home_dog_images/dog6.jpg",
+          title: "Meet our lovely dogs",
+          location: "Valencia, Spain",
+          members: 8,
+          organiser: "Laura"
+      ),
+      
+    ];
   }
 }

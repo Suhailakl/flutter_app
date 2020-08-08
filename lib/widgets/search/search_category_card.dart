@@ -15,20 +15,30 @@ class SearchCategoryCard extends StatelessWidget{
     return Stack(
       children: <Widget>[
         Padding(
-          padding:  EdgeInsets.only(top: ScreenUtil().setHeight(105)),
+          padding:  EdgeInsets.only(top: ScreenUtil().setHeight(115)),
           child: Container(
             width: ScreenUtil().setWidth(600) ,
             height: ScreenUtil().setHeight(220),
             child: Align(
               alignment: Alignment.centerLeft,
               child: SizedBox(
-                width: ScreenUtil().setWidth(205),
+                width: ScreenUtil().setWidth(235),
+                height: ScreenUtil().setHeight(150),
                 child: Padding(
                   padding:  EdgeInsets.only(left: ScreenUtil().setWidth(30)),
-                  child: Text(
-                  searchModel.title,
-                  maxLines: 2,
-                  style: CustomTextStyles().searchTitleStyle,
+                  child: Column(
+                    children: <Widget>[
+                      Expanded(
+                        child: Align(
+                          alignment: Alignment.center,
+                          child: Text(
+                          searchModel.title,
+                          maxLines: 4,
+                          style: CustomTextStyles().searchTitleStyle,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),

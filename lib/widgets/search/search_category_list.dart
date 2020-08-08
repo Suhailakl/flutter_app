@@ -23,7 +23,7 @@ List<SearchCatModel> liSearch=[];
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: ScreenUtil().setWidth(35),
-            childAspectRatio: 1.1),
+            childAspectRatio: (ScreenUtil.screenWidth/ScreenUtil.screenHeight)*2.3),
          itemCount: liSearch.length,
         itemBuilder:
         (context,index){
